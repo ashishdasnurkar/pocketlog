@@ -11,14 +11,3 @@ const (
 	// LevelError represents the highest logging level, only to be used to trace. errors
 	LevelError
 )
-
-func (l *Logger) Debugf(string format, args ...any) {
-
-}
-func (l *Logger) Infof(string format, args ...any) {
-
-}
-
-func (l *Logger) Errorf(string format, args ...any) {
-
-}
