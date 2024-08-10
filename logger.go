@@ -23,10 +23,10 @@ func (l *Logger) Debugf(format string, args ...any) {
 	_, _ = fmt.Printf(format+"\n", args...)
 }
 
-func (l *Logger) Infof(string format, args ...any) {
+func (l *Logger) Infof(format string, args ...any) {
 
 }
 
-func (l *Logger) Errorf(string format, args ...any) {
+func (l *Logger) Errorf(format string, args ...any) {
 
 }
