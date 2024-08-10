@@ -18,3 +18,7 @@ func (l *Logger) Debugf(string format, args ...any) {
 func (l *Logger) Infof(string format, args ...any) {
 
 }
+
+func (l *Logger) Errorf(string format, args ...any) {
+
+}
